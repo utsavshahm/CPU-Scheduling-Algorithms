@@ -20,7 +20,7 @@ export default function firstComeFirstServeAlgorithm(pr) {
         currentTime += p.burstTime;
         p.completionTime = currentTime;
         p.turnaroundTime = p.completionTime - p.arrivalTime;
-        console.log(p.turnaroundTime)
+        // console.log(p.turnaroundTime)
         p.waitingTime = p.startTime - p.arrivalTime;
 
         ganttChart.push(new Intervals(p.pid, p.startTime, p.completionTime));

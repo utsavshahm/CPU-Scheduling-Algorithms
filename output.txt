@@ -1,0 +1,10 @@
+
+Analysis
+PID | Arrival | Burst | Completion | Turnaround | 
+2 | 16 | 20 | 60 | 44
+3 | 20 | 12 | 64 | 44
+1 | 0 | 36 | 68 | 68
+
+Gantt Chart:
+| P1 | P1 | P2 | P3 | P1 | P2 | P3 | P1 |
+0    8   16   24   32   48   60   64   68

@@ -2,17 +2,6 @@ import algorithms from '../algorithms/index.js';
 
 export const simulateScheduling = async (req, res) => {
 
-    // Set CORS headers
-    res.setHeader('Access-Control-Allow-Origin', '*'); // Frontend origin
-    res.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS');    // Allowed methods
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');       // Allowed headers
-
-    // Handle preflight requests
-    if (req.method === 'OPTIONS') {
-        res.status(204).end(); // End preflight response
-        return;
-    }
-
     try {
         // console.log("alkdflksdjflksdf")
         // console.log(req.body)

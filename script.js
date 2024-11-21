@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
             //     mlfqConfig
             // });
 
-            const response = await fetch(`https://cpu-scheduling-algorithms-backend.vercel.app/api/scheduler/simulate`, {
+            const response = await fetch(`https://cpu-scheduling-algorithms-backend.netlify.app/api/scheduler/simulate`, {
                 // credentials : 'include',
                 method: 'POST',
                 headers: {

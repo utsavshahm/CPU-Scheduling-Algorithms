@@ -112,6 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const response = await fetch(`https://cpu-scheduling-algorithms-backend.netlify.app/api/scheduler/simulate`, {
                 // credentials : 'include',
+                mode : 'no-cors',
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
